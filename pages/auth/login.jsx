@@ -39,7 +39,7 @@ export default function LoginPage() {
       {error && <p style={{ color: "red" }}>{error}</p>}
       <Login onSubmit={onSubmit} />
       <Box>
-        <span>Don't have an account? </span>
+        <span>Don&apos;t have an account? </span>
         <Link href="/auth/signup">Sign up</Link>
       </Box>
     </Container>
